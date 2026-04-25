@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loving Homes - فندق الكلاب</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">الرئيسية</a>
+        <a href="packages.html">الباقات</a>
+        <a href="about.html">من نحن</a>
+        <a href="faq.html">الأسئلة الشائعة</a>
+        <a href="contact.html">اتصل بنا</a>
+        <a href="booking.html">احجز الآن</a>
+    </nav>
+    
+    <div class="header-content">
+        <h1>🐾 Loving Homes - فندق الكلاب الفاخر</h1>
+        <p>فندق متكامل لرعاية كلابكم الأحباء في هونج كونج. نوفر بيئة آمنة ومريحة مع طعام صحي ورعاية يومية.</p>
+    </div>
+    
+    <!-- سلايدر الصور -->
+    <div class="slider-container">
+        <div class="slider">
+            <img src="C:\Users\Lenovo\OneDrive\Desktop\النسخة الثالثة\فندق كلاب.jpeg" class="active">
+            <img src="C:\Users\Lenovo\OneDrive\Desktop\النسخة الثالثة\كلاب.jpeg">
+           <img src="C:\Users\Lenovo\OneDrive\Desktop\النسخة الثالثة\كلب ابيض.jpeg">
+            <img src="C:\Users\Lenovo\OneDrive\Desktop\النسخة الثالثة\كلب.jpeg">
+          
+        </div>
+        
+        <button class="slider-btn prev" onclick="changeSlide(-1)">❮</button>
+        <button class="slider-btn next" onclick="changeSlide(1)">❯</button>
+        
+        <div class="slider-dots">
+            <span class="dot active" onclick="goToSlide(1)"></span>
+            <span class="dot" onclick="goToSlide(2)"></span>
+            <span class="dot" onclick="goToSlide(3)"></span>
+            <span class="dot" onclick="goToSlide(4)"></span>
+        </div>
+    </div>
+</header>
+
+<main>
+    <!-- قسم الترحيب -->
+    <section class="hero-section">
+        <h2>فندق فاخر لكلابكم الأحباء</h2>
+        <p>رعاية متكاملة وحب لا محدود 🐶❤️</p>
+    </section>
+    
+    <!-- قسم الخدمات -->
+    <section>
+        <h2>خدماتنا المميزة</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>🏨 غرف فاخرة</h3>
+                <p>غرف مكيفة مع أسرة مريحة وألعاب تفاعلية.</p>
+            </div>
+            <div class="service-card">
+                <h3>🍖 طعام طازج</h3>
+                <p>وجبات محضرة تحت إشراف أطباء بيطريين.</p>
+            </div>
+            <div class="service-card">
+                <h3>🌳 حديقة ألعاب</h3>
+                <p>ساحات واسعة للجري واللعب.</p>
+            </div>
+            <div class="service-card">
+                <h3>🧼 سبا وعناية</h3>
+                <p>خدمات الاستحمام وقص الأظافر.</p>
+            </div>
+            <div class="service-card">
+                <h3>🏥 رعاية بيطرية</h3>
+                <p>عيادة بيطرية 24 ساعة.</p>
+            </div>
+            <div class="service-card">
+                <h3>📸 تحديثات يومية</h3>
+                <p>صور وفيديوهات لكلبك يومياً.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- قسم من نحن -->
+    <section style="text-align: center;">
+        <h2>لماذا لوفينق هومز؟</h2>
+        <p style="font-size: 1.2rem;">نعامل كل كلب وكأنه فرد من العائلة. طاقمنا متخصص ومحب للحيوانات.</p>
+        <div style="margin-top: 20px;">
+            <a href="about.html" style="display: inline-block; padding: 10px 30px; background: #FFD700; color: #5D3A1A; text-decoration: none; border-radius: 25px; font-weight: bold;">اقرأ المزيد</a>
+        </div>
+    </section>
+    
+    <!-- إحصائيات -->
+    <section>
+        <h2 style="text-align: center;">Loving Homes</h2>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h2>+500</h2>
+                <p>كلب استضفناهم</p>
+            </div>
+            <div class="stat-card">
+                <h2>+24</h2>
+                <p>موظف متخصص</p>
+            </div>
+            <div class="stat-card">
+                <h2>98%</h2>
+                <p>رضا العملاء</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>🐾 Loving Homes</h4>
+            <p>فندق فاخر للكلاب في هونج كونج</p>
+        </div>
+        <div class="footer-section">
+            <h4>روابط سريعة</h4>
+            <a href="about.html">من نحن</a>
+            <a href="packages.html">الباقات</a>
+            <a href="contact.html">اتصل بنا</a>
+            <a href="faq.html">الاسئلة الشائعة</a>
+            <a href="booking.html">احجز الان</a>
+        </div>
+        <div class="footer-section">
+            <h4>معلومات الاتصال</h4>
+            <p>📍 هونج كونج</p>
+            <p>📞 +852 2345 6789</p>
+            <p>✉️ info@lovinghomes.hk</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© ٢٠٢٦ جميع الحقوق محفوظة</p>
+        <p align="center">تصميم وتطوير : Aya Ayham Obeidat</p>
+
+    </div>
+</footer>
+
+<script>
+let currentSlide = 1;
+let autoSlideInterval;
+
+window.onload = function() {
+    showSlide(currentSlide);
+    startAutoSlide();
+}
+
+function startAutoSlide() {
+    autoSlideInterval = setInterval(() => changeSlide(1), 3000);
+}
+
+function changeSlide(direction) {
+    showSlide(currentSlide += direction);
+}
+
+function goToSlide(n) {
+    showSlide(currentSlide = n);
+}
+
+function showSlide(n) {
+    let slides = document.querySelectorAll('.slider img');
+    let dots = document.querySelectorAll('.dot');
+    
+    if (n > slides.length) currentSlide = 1;
+    if (n < 1) currentSlide = slides.length;
+    
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].classList.remove('active');
+    }
+    
+    for (let i = 0; i < dots.length; i++) {
+        dots[i].classList.remove('active');
+    }
+    
+    slides[currentSlide - 1].classList.add('active');
+    dots[currentSlide - 1].classList.add('active');
+}
+</script>
+
+</body>
+</html>
